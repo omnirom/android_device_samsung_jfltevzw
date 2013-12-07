@@ -26,6 +26,8 @@ $(call inherit-product, vendor/omni/config/common.mk)
 #$(call inherit-product, device/sample/products/backup_overlay.mk)
 $(call inherit-product, device/samsung/jfltevzw/device.mk)
 
+PRODUCT_GMS_CLIENTID_BASE := android-verizon
+
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := omni_jfltevzw
 PRODUCT_DEVICE := jfltevzw
